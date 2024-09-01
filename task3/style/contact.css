@@ -1,0 +1,156 @@
+::selection{
+    background-color: #F8B526;
+    color: black;
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+}
+#layer1{
+    background-color: #212d45;
+}
+
+.main-page{
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    background-image: url("../assets//about-us-min.jpg");
+    height: 75vh;
+    
+}
+header{
+    align-self: center;
+    width: 100%;
+    /* border-bottom: 0.4px solid white; */
+}
+header figure img{
+    margin-top: 5%;
+}
+#header-icons{
+    margin-top: 3%;
+    width: 10%;
+}
+#header-icons i{
+    margin: 0.8%;
+}
+#header-p {
+    color: #F8B526;
+    margin-top: 2.1%;
+}
+nav{
+    margin-top: 2%;
+    width: 100%;
+
+}
+.navigation{
+    width: 40%;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    margin: 1%;
+    &:hover{
+        text-decoration: none;
+        color: #F8B526;
+        transition: 0.4S;
+    }
+}
+.btnnn{
+    width: 50%;
+    margin-left: 5%;
+}
+.btnnn a{
+    text-decoration: none;
+    background-color: #FFC03D;
+    border: 1px solid #f9c358;
+    color: black;
+    padding: 2% 6%;
+    &:hover{
+        background-color: #F8B526;
+        text-decoration: none;
+        color: white;
+    }
+}
+#main-header{
+    margin-top: 10%;
+}
+#main-header h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+#contact1{
+display: flex;
+margin-top: 10%;
+justify-content: space-between;
+}
+#contact2{
+    display: flex;
+margin-top: 10%;
+justify-content: space-between;
+}
+#contact3{
+    display: flex;
+margin-top: 10%;
+justify-content: space-between;
+}
+#contact-info #h3{
+    color: #f9c358;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7%;
+}
+#contact-info #h2{
+    color: black;
+    font-weight:bolder;
+    text-align: center;
+}
+.lfft{
+    margin-top: 8%;
+}
+.lfft h2{
+    font-weight: bold;
+}
+.lfft h3{
+    font-weight: bolder;
+}
+.lfft p{
+    width: 350px;
+}
+.lfft a{
+    color: black;
+    background: #f9c358;
+    border: 1px solid #f9c358;
+    padding: 2% 5%;
+    display: inline-block;
+    margin-top: 2%;
+}
+/* <<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>> */
+footer{
+    background-color: #212d45;
+    font-family: "Open Sans", sans-serif;
+    padding: 5%;
+    color: white;
+    margin-top: 5%;
+}
+footer ul li{
+    list-style: none;
+}
+footer h2{
+    font-weight: bold;
+    font-size: 20px
+}
+footer #services li:hover{
+    color: #F8B526;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.footer-icons{
+    width: 10%;
+}
+.footer-icons i{
+    margin: 1%;
+}

@@ -1,0 +1,202 @@
+::selection{
+    background-color: #F8B526;
+    color: black;
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+}
+#layer1{
+    background-color: #212d45;
+}
+
+.main-page{
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    background-image: url("../assets/about-us-min.jpg");
+    height: 75vh;
+    
+}
+header{
+    align-self: center;
+    width: 100%;
+    /* border-bottom: 0.4px solid white; */
+}
+header figure img{
+    margin-top: 5%;
+}
+#header-icons{
+    margin-top: 3%;
+    width: 10%;
+}
+#header-icons i{
+    margin: 0.8%;
+}
+#header-p {
+    color: #F8B526;
+    margin-top: 2.1%;
+}
+nav{
+    margin-top: 2%;
+    width: 100%;
+
+}
+.navigation{
+    width: 40%;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    margin: 1%;
+    &:hover{
+        text-decoration: none;
+        color: #F8B526;
+        transition: 0.4S;
+    }
+}
+.btnnn{
+    width: 50%;
+    margin-left: 5%;
+}
+.btnnn a{
+    text-decoration: none;
+    background-color: #FFC03D;
+    border: 1px solid #f9c358;
+    color: black;
+    padding: 2% 6%;
+    &:hover{
+        background-color: #F8B526;
+        text-decoration: none;
+        color: white;
+    }
+}
+#main-header{
+    margin-top: 10%;
+}
+#main-header h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+#section5{
+    margin-top: 7%;
+}
+#section5-headers{
+    margin-top: 6%;
+}
+#section5 h3{
+    color: #f9c358;
+    font-weight: bold;
+    text-align: center;
+}
+#section5 h2{
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+}
+#section5 div h4{
+    text-align: center;
+}
+#up{
+    display: flex;
+    height: 60vh;
+    margin-top: 6%;
+}
+#down{
+    display: flex;
+    height: 60vh;
+}
+#DIV1{
+    background-image: url("../assets//img-5.jpg");
+    width: 25%;
+}
+#DIV2{
+    background-image: url("../assets/img3-min.jpg");
+    width: 25%;
+
+}
+#DIV3{
+    background-image: url("../assets/img1-min.jpg");
+    width: 25%;
+
+}
+#DIV4{
+    background-image: url("../assets/img4-min.jpg");
+    width: 25%;
+
+}
+#DIV5{
+    background-image: url("../assets//img2-min.jpg");
+    width: 25%;
+}
+#DIV6{
+    background-image: url("../assets/img-8.jpg");
+    width: 25%;
+
+}
+#DIV7{
+    background-image: url("../assets/img-7.jpg");
+    width: 25%;
+
+}
+#DIV8{
+    background-image: url("../assets/img-6.jpg");
+    width: 25%;
+
+}
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.clients{
+    margin-top: 10%;
+}
+.clients h3{
+    color: #f9c358;
+    font-weight: bold;
+    text-align: center;
+}
+.clients h2{
+    font-weight: bolder;
+    font-size: 35px;
+    color: #212d45;
+    text-align: center;
+}
+#logos{
+    margin-top: 10%;
+}
+.logo{
+    width: 25%;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+footer{
+    background-color: #212d45;
+    font-family: "Open Sans", sans-serif;
+    padding: 5%;
+    color: white;
+    margin-top: 5%;
+}
+footer ul li{
+    list-style: none;
+}
+footer h2{
+    font-weight: bold;
+    font-size: 20px
+}
+footer #services li:hover{
+    color: #F8B526;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.footer-icons{
+    width: 10%;
+}
+.footer-icons i{
+    margin: 1%;
+}

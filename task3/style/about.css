@@ -1,0 +1,271 @@
+::selection{
+    background-color: #F8B526;
+    color: black;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    width: 75%;
+    margin: auto;
+}
+#layer1{
+    background-color: #212d45;
+}
+
+.main-page{
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    background-image: url("../assets/about-us-min.jpg");
+    height: 75vh;
+    
+}
+header{
+    align-self: center;
+    width: 100%;
+    /* border-bottom: 0.4px solid white; */
+}
+header figure img{
+    margin-top: 5%;
+}
+#header-icons{
+    margin-top: 3%;
+    width: 10%;
+}
+#header-icons i{
+    margin: 0.8%;
+}
+#header-p {
+    color: #F8B526;
+    margin-top: 2.1%;
+}
+nav{
+    margin-top: 2%;
+    width: 100%;
+}
+.navigation{
+    width: 40%;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    margin: 1%;
+    &:hover{
+        text-decoration: none;
+        color: #F8B526;
+        transition: 0.4S;
+    }
+}
+.btnnn{
+    width: 50%;
+    margin-left: 5%;
+}
+.btnnn a{
+    text-decoration: none;
+    background-color: #FFC03D;
+    border: 1px solid #f9c358;
+    color: black;
+    padding: 2% 6%;
+    &:hover{
+        background-color: #F8B526;
+        text-decoration: none;
+        color: white;
+    }
+}
+#main-header{
+    margin-top: 10%;
+}
+#main-header h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+}
+/* <<<<<<<<<<<<<<<<<<SECTION2>>>>>>>>>>>>>>>>>>>>>>>>> */
+.section2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+.section2 .part{
+    display: flex;
+}
+.section2 .lfttt h4{
+    color: #F8B526;
+    font-weight: bold;
+}
+.text{
+    text-align:start;
+}
+.icon{
+    width: 90px;
+    height: 60px;
+    background-color: #f9c358;
+    border: 1px solid #f9c358;
+    border-radius: 50%;
+    align-content: center;
+    margin-top: 8%;
+    margin: 2%;
+}
+#icon3{
+    margin-left: 17%;
+}
+.section2 .lfttt #about-header{
+    color: #212d45;
+    font-weight: bolder;
+    font-size: 45px;
+    width: 490px;
+    text-align: start;
+}
+.section2 .lfttt .about-p{
+    width: 600px;
+    text-align: start;
+}
+.section2 .part .icon i{
+    margin-left: 26%;
+}
+.section2 .lfttt a{
+    color: black;
+    background-color: #f9c358;
+    text-decoration: none;
+    padding: 2% 6%;
+}
+/* <<<<<<<<<<<<<<EXPERTS>>>>>>>>>>>>>>>>>>>> */
+.experts{
+    margin-top: 5%;
+}
+#workers{
+    display: flex;
+    justify-content: space-between;
+}
+.experts h4{
+    color: #f9c358;
+    font-weight: bold;
+    text-align: center;
+}
+.experts h2{
+    color: #212d45;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+
+}
+#workers div{
+    width: 20%;
+}
+#workers h3,p{
+    text-align: center;
+
+}
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<SECTION3>>>>>>>>>>>>>>>>>>>>>>>> */
+#section3{
+    display: flex;
+    margin-top: 5%;
+    font-family: "Open Sans", sans-serif;
+}
+#section3-lft{
+    background-color: #2d364a;
+    width: 50%;
+    padding: 6%;
+}
+#section3-lft h3{
+    color:#FFC03D;
+    font-size: px;
+}
+#section3-lft h2{
+    font-size: 50px;
+    color: white;
+}
+#section3-lft p{
+    color: white;
+    margin-bottom: 1%;
+}
+#section3-rght{
+    background-color: #f9c358;
+    width: 50%;
+    padding: 6%;
+}
+#section3-rght h4{
+    color: #2d364a;
+    font-size: 20px;
+}
+#section3-rght h2{
+    font-size: 25px;
+}
+#section3 a{
+    text-decoration:none;
+    color:black;
+    background-color: #FFC03D;
+    border: 1px solid #FFC03D;
+    padding: 2% 4%;
+    display: inline-block;
+    margin-top: 2%;
+    &:hover{
+        background-color: #F8B526;
+    }
+}
+/* <<<<<<<<<<<<<<<<<<<Clients>>>>>>>>>>>>>>>>>>>> */
+.clients{
+    margin-top: 10%;
+}
+.clients h3{
+    color: #f9c358;
+    font-weight: bold;
+    text-align: center;
+}
+.clients h2{
+    font-weight: bolder;
+    font-size: 35px;
+    color: #212d45;
+    text-align: center;
+}
+#logos{
+    margin-top: 10%;
+}
+.logo{
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<FOOTER>>>>>>>>>>>>>>>>>>> */
+footer{
+    background-color: #212d45;
+    font-family: "Open Sans", sans-serif;
+    padding: 5%;
+    color: white;
+    margin-top: 5%;
+}
+footer ul li{
+    list-style: none;
+}
+footer h2{
+    font-weight: bold;
+    font-size: 20px
+}
+footer #services li:hover{
+    color: #F8B526;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.footer-icons{
+    width: 10%;
+}
+.footer-icons i{
+    margin: 1%;
+}

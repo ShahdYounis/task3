@@ -1,0 +1,170 @@
+::selection{
+    background-color: #F8B526;
+    color: black;
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+}
+#layer1{
+    background-color: #212d45;
+}
+
+.main-page{
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    background-image: url("../assets/about-us-min.jpg");
+    height: 65vh;
+    
+}
+header{
+    align-self: center;
+    width: 100%;
+}
+header figure img{
+    margin-top: 5%;
+}
+#header-icons{
+    margin-top: 3%;
+    width: 10%;
+}
+#header-icons i{
+    margin: 0.8%;
+}
+#header-p {
+    color: #F8B526;
+    margin-top: 2.1%;
+}
+nav{
+    margin-top: 2%;
+    width: 100%;
+
+}
+.navigation{
+    width: 40%;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    margin: 1%;
+    &:hover{
+        text-decoration: none;
+        color: #F8B526;
+        transition: 0.4S;
+    }
+}
+.btnnn{
+    width: 50%;
+    margin-left: 5%;
+}
+.btnnn a{
+    text-decoration: none;
+    background-color: #FFC03D;
+    border: 1px solid #f9c358;
+    color: black;
+    padding: 2% 6%;
+    &:hover{
+        background-color: #F8B526;
+        text-decoration: none;
+        color: white;
+    }
+}
+#main-header{
+    margin-top: 10%;
+}
+#main-header h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.section2{
+    margin-top: 10%;
+    font-family: "Open Sans", sans-serif;
+}
+#section2-header{
+    color: #212d45;
+    font-weight: bold;
+}
+.button h2{
+    color: #212d45;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.section2 .up-part h2{
+    font-size: 25px;
+    color: #212d45;
+    font-weight: bold;
+}
+.section2 .down-part h2{
+    font-size: 25px;
+    color: #212d45;
+    font-weight: bold;
+}
+.section2 .up-part div{
+    width: 30%;
+}
+.section2 .down-part div{
+    width: 33%;
+    margin: 1%;
+}
+.up-part{
+    display: flex;
+    justify-content: space-between;
+}
+.down-part{
+    display: flex;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* <<<<<<<<<<<<<<<<>>>>>>>>>>>>> */
+.clients{
+    margin-top: 10%;
+}
+.clients h3{
+    color: #f9c358;
+    font-weight: bold;
+    text-align: center;
+}
+.clients h2{
+    font-weight: bolder;
+    font-size: 35px;
+    color: #212d45;
+    text-align: center;
+}
+#logos{
+    margin-top: 10%;
+}
+.logo{
+    width: 25%;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+footer{
+    background-color: #212d45;
+    font-family: "Open Sans", sans-serif;
+    padding: 5%;
+    color: white;
+    margin-top: 5%;
+}
+footer ul li{
+    list-style: none;
+}
+footer h2{
+    font-weight: bold;
+    font-size: 20px
+}
+footer #services li:hover{
+    color: #F8B526;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.footer-icons{
+    width: 10%;
+}
+.footer-icons i{
+    margin: 1%;
+}
